@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "ReactNative",
-    "slug": "ReactNative",
+    "name": "Ajuda+",
+    "slug": "Ajuda",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./images/logo_ajuda.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,16 +17,19 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.goncalocosta.ajudamais"
     },
     "android": {
+      "package": "com.goncalocosta.ajudamais",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./images/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       }
+      
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./images/favicon.png"
     }
   }
 }
